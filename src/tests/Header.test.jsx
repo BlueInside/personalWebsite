@@ -6,6 +6,9 @@ describe('Header component', () => {
   it('renders header with navigation links', () => {
     render(<Header />);
 
-    expect(screen.getByText(/i'm header/i)).toBeInTheDocument();
+    expect(screen.getByText(/Home/i)).toBeInTheDocument();
+    expect(screen.getByText(/Work/i)).toBeInTheDocument();
+    expect(screen.getByText(/About/i)).toBeInTheDocument();
+    expect(screen.getByText(/Contact/i)).toBeInTheDocument();
   });
 });
