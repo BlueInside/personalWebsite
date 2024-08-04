@@ -3,12 +3,20 @@ import { Link } from "react-scroll";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <section
         id="about"
         className="m-auto flex min-h-screen flex-col items-center justify-center bg-gray-100 p-8"
       >
-        <div className="mx-auto flex max-w-3xl flex-col items-center">
+        <div
+          style={{ zIndex: "1" }}
+          className="mx-auto flex max-w-3xl flex-col items-center"
+        >
+          <img
+            src="https://res.cloudinary.com/dhjzutfu9/image/upload/v1721645517/odin-book-profilePictures/ylpz2z5cjhywc2hl04lt.jpg"
+            alt="karol pulawski"
+            className="h-48 w-48 rounded-full border-4 border-gray-300 object-cover shadow-lg"
+          />
           <h1 className="mb-4 text-4xl font-bold">
             JavaScript, React enthusiast
           </h1>
@@ -37,7 +45,7 @@ export default function Home() {
 
       <section id="work" className="min-h-screen bg-white p-8">
         {" "}
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-6">
+        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6">
           <h2 className="mb-4 text-4xl font-bold">My projects</h2>
           <h3>
             Here are a few past design projects I&apos;ve worked on. Want to see
@@ -77,11 +85,16 @@ export default function Home() {
         id="contact"
         className="flex min-h-screen items-center justify-center bg-white p-8"
       >
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 text-center">
+        <div className="z-10 mx-auto flex max-w-6xl flex-col items-center gap-6 text-center">
           <h2 className="mb-4 text-4xl font-bold">Contact</h2>
-          <p>Do you want to talk?</p>
-          <p>Let&apos;s make something incredible together!</p>
-          <a className="text-blue-500" href="mailto:karolpulawski@hotmail.com">
+          <p className="text-xl">Do you want to talk?</p>
+          <p className="text-xl">
+            Let&apos;s make something incredible together!
+          </p>
+          <a
+            className="text-xl text-blue-500"
+            href="mailto:karolpulawski@hotmail.com"
+          >
             karolpulawski@hotmail.com
           </a>
         </div>
