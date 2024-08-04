@@ -14,6 +14,7 @@ export default function Navbar() {
       <Link
         to="work"
         smooth={true}
+        offset={-50}
         duration={500}
         className="cursor-pointer text-white"
       >
