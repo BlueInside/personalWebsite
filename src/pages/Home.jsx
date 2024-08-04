@@ -1,4 +1,5 @@
 import Project from "../components/Project";
+import { Link } from "react-scroll";
 
 export default function Home() {
   return (
@@ -20,9 +21,15 @@ export default function Home() {
               LinkedIn
             </a>{" "}
             profile for more information or just{" "}
-            <a className="text-blue-500" href="">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-blue-500"
+              href=""
+            >
               contact{" "}
-            </a>
+            </Link>
             me
           </p>
         </div>
@@ -66,9 +73,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="min-h-screen bg-white p-8">
-        <h2 className="mb-4 text-4xl font-bold">Contact</h2>
-        {/* Add your contact details here */}
+      <section
+        id="contact"
+        className="flex min-h-screen items-center justify-center bg-white p-8"
+      >
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 text-center">
+          <h2 className="mb-4 text-4xl font-bold">Contact</h2>
+          <p>Do you want to talk?</p>
+          <p>Let&apos;s make something incredible together!</p>
+          <a className="text-blue-500" href="mailto:karolpulawski@hotmail.com">
+            karolpulawski@hotmail.com
+          </a>
+        </div>
       </section>
     </div>
   );
