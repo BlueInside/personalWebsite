@@ -1,40 +1,33 @@
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
     <nav className="flex space-x-4">
       <Link
-        to="home"
+        to="about"
         smooth={true}
         duration={500}
-        className="text-white cursor-pointer"
+        className="cursor-pointer text-white"
       >
-        Home
+        About
       </Link>
       <Link
         to="work"
         smooth={true}
         duration={500}
-        className="text-white cursor-pointer"
+        className="cursor-pointer text-white"
       >
         Work
       </Link>
-      <Link
-        to="about"
-        smooth={true}
-        duration={500}
-        className="text-white cursor-pointer"
-      >
-        About
-      </Link>
+
       <Link
         to="contact"
         smooth={true}
         duration={500}
-        className="text-white cursor-pointer"
+        className="cursor-pointer text-white"
       >
         Contact
       </Link>
     </nav>
-  );in app
+  );
 }
