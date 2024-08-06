@@ -10,7 +10,7 @@ export default function Project({
 }) {
   return (
     <div
-      className={`flex ${isImageLeft ? "flex-row-reverse" : "flex-row"} mb-8 w-full items-center gap-7`}
+      className={`mb-8 flex w-full flex-col items-center ${isImageLeft ? "sm:flex-row-reverse" : "sm:flex-row"}`}
     >
       <img
         src={image}
@@ -20,14 +20,14 @@ export default function Project({
       <div className="w-1/2 p-4">
         <h3 className="mb-2 text-2xl font-bold">{title}</h3>
         <p className="mb-4">{description}</p>
-        <div className="flex space-x-4">
+        <div className="flex justify-evenly space-x-4">
           <a
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 hover:text-gray-600"
           >
-            <FaGithub size={24} />
+            <FaGithub size={48} />
           </a>
           <a
             href={websiteLink}
@@ -35,7 +35,7 @@ export default function Project({
             rel="noopener noreferrer"
             className="text-gray-800 hover:text-gray-600"
           >
-            <FaExternalLinkAlt size={24} />
+            <FaExternalLinkAlt size={48} />
           </a>
         </div>
       </div>
