@@ -11,7 +11,7 @@ export default function CanvasBackground() {
 
     let particles = [];
     const colors = [
-      "rgba(255, 255, 255, 0.8)",
+      "rgba(52, 204, 204, 0.8)",
       "rgba(255, 204, 204, 0.8)",
       "rgba(153, 204, 255, 0.8)",
     ];
