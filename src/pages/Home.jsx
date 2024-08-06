@@ -15,17 +15,20 @@ export default function Home() {
           <img
             src="https://res.cloudinary.com/dhjzutfu9/image/upload/v1721645517/odin-book-profilePictures/ylpz2z5cjhywc2hl04lt.jpg"
             alt="karol pulawski"
-            className="h-48 w-48 rounded-full border-4 border-gray-300 object-cover shadow-lg"
+            className="mb-7 h-48 w-48 rounded-full border-4 border-gray-300 object-cover shadow-lg"
           />
           <h1 className="mb-4 text-4xl font-bold">
             JavaScript, React enthusiast
           </h1>
-          <p className="mb-4 text-xl">
+          <p className="mb-4 text-2xl">
             Open to new technologies and development opportunities
           </p>
-          <p>
+          <p className="text-xl">
             Visit my{" "}
-            <a href="" className="text-blue-500">
+            <a
+              href="https://www.linkedin.com/in/karol-pulawski-66712b1b6/"
+              className="text-blue-500"
+            >
               LinkedIn
             </a>{" "}
             profile for more information or just{" "}
@@ -47,10 +50,13 @@ export default function Home() {
         {" "}
         <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6">
           <h2 className="mb-4 text-4xl font-bold">My projects</h2>
-          <h3>
+          <h3 className="text-lg">
             Here are a few past design projects I&apos;ve worked on. Want to see
             more?{" "}
-            <a className="text-blue-500" href="#">
+            <a
+              className="text-blue-500"
+              href="https://blueinside.github.io/my-portfolio/"
+            >
               Click here
             </a>
           </h3>
@@ -58,24 +64,24 @@ export default function Home() {
             image="public/images/social.jpg"
             title="Facebook Replica"
             description=" A dynamic clone of Facebook featuring core functionalities like posts, likes, and comments, built to demonstrate proficiency in handling complex web architectures."
-            githubLink="https://github.com/yourusername/project1"
-            websiteLink="https://project1.com"
+            githubLink="https://github.com/BlueInside/odin-book-frontend"
+            websiteLink="https://odin-book-blueinside.netlify.app/"
             isImageLeft={false}
           />
           <Project
             image="public/images/chat.jpg"
             title="Chat Application"
             description="A straightforward chat application designed to refine backend development skills. This project focuses on creating a reliable messaging platform without the use of WebSocket technology, emphasizing robust server-side functionalities."
-            githubLink="https://github.com/yourusername/project2"
-            websiteLink="https://project2.com"
+            githubLink="https://github.com/BlueInside/my-chat-app"
+            websiteLink="#"
             isImageLeft={true}
           />
           <Project
             image="public/images/waldo.webp"
             title="Interactive 'Where's Waldo?' Game"
             description="A fun, interactive game that challenges users to find Waldo in crowded scene, developed to showcase skills in user interface design and attention to detail."
-            githubLink="https://github.com/yourusername/project3"
-            websiteLink="https://project3.com"
+            githubLink="https://github.com/BlueInside/where-is-character"
+            websiteLink="#"
             isImageLeft={false}
           />
         </div>
