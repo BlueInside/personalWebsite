@@ -81,7 +81,7 @@ export default function Home() {
             title="Interactive 'Where's Waldo?' Game"
             description="A fun, interactive game that challenges users to find Waldo in crowded scene, developed to showcase skills in user interface design and attention to detail."
             githubLink="https://github.com/BlueInside/where-is-character"
-            websiteLink="#"
+            websiteLink="https://where-is-character.netlify.app/"
             isImageLeft={false}
           />
         </div>
