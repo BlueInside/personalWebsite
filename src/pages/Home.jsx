@@ -73,7 +73,7 @@ export default function Home() {
             title="Chat Application"
             description="A straightforward chat application designed to refine backend development skills. This project focuses on creating a reliable messaging platform without the use of WebSocket technology, emphasizing robust server-side functionalities."
             githubLink="https://github.com/BlueInside/my-chat-app"
-            websiteLink="#"
+            websiteLink="https://bluinside-my-chat.netlify.app/"
             isImageLeft={true}
           />
           <Project
