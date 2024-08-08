@@ -5,8 +5,10 @@ export default function Header() {
   return (
     <header className="fixed z-20 w-full bg-gray-800 p-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-lg font-bold text-white">Karol Pulawski</div>
-        <div className="flex gap-10">
+        <div className="hidden text-lg font-bold text-white sm:block">
+          Karol Pulawski
+        </div>
+        <div className="flex gap-5 sm:gap-10">
           <a
             href={"https://github.com/BlueInside"}
             target="_blank"

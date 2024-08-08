@@ -15,9 +15,9 @@ export default function Project({
       <img
         src={image}
         alt={title}
-        className="h-auto w-1/2 rounded-lg shadow-lg"
+        className="h-auto rounded-lg shadow-lg sm:w-1/2"
       />
-      <div className="w-1/2 p-4">
+      <div className="p-4">
         <h3 className="mb-2 text-2xl font-bold">{title}</h3>
         <p className="mb-4">{description}</p>
         <div className="flex justify-evenly space-x-4">
