@@ -15,7 +15,8 @@ export default function Project({
       <img
         src={image}
         alt={title}
-        className="h-auto rounded-lg shadow-lg sm:w-1/2"
+        className="h-auto cursor-pointer rounded-lg shadow-lg sm:w-1/2"
+        onClick={() => window.open(`${websiteLink}`)}
       />
       <div className="p-4">
         <h3 className="mb-2 text-2xl font-bold">{title}</h3>
@@ -25,7 +26,7 @@ export default function Project({
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-gray-600"
+            className="text-white hover:text-gray-500"
           >
             <FaGithub size={48} />
           </a>
@@ -33,7 +34,7 @@ export default function Project({
             href={websiteLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-gray-600"
+            className="text-white hover:text-gray-500"
           >
             <FaExternalLinkAlt size={48} />
           </a>

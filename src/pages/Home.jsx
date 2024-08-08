@@ -6,7 +6,7 @@ export default function Home() {
     <div className="">
       <section
         id="about"
-        className="m-auto flex min-h-screen flex-col items-center justify-center bg-gray-100 p-8"
+        className="m-auto flex min-h-screen flex-col items-center justify-center bg-gray-900 p-8"
       >
         <div
           style={{ zIndex: "1" }}
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="work" className="min-h-screen bg-white p-8">
+      <section id="work" className="min-h-screen bg-gray-800 p-8">
         {" "}
         <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6">
           <h2 className="mb-4 text-4xl font-bold">My projects</h2>
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section
         id="contact"
-        className="flex min-h-screen items-center justify-center bg-white p-8"
+        className="flex min-h-screen items-center justify-center bg-gray-800 p-8"
       >
         <div className="z-10 mx-auto flex max-w-6xl flex-col items-center gap-6 text-center">
           <h2 className="mb-4 text-4xl font-bold">Contact</h2>

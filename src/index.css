@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  color: white;
+}
 #canvas {
   position: fixed;
   top: 0;
