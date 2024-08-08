@@ -61,7 +61,7 @@ export default function Home() {
             </a>
           </h3>
           <Project
-            image="public/images/social.jpg"
+            image="https://res.cloudinary.com/dhjzutfu9/image/upload/v1723099285/social_rgogev.jpg"
             title="Facebook Replica"
             description=" A dynamic clone of Facebook featuring core functionalities like posts, likes, and comments, built to demonstrate proficiency in handling complex web architectures."
             githubLink="https://github.com/BlueInside/odin-book-frontend"
@@ -69,7 +69,7 @@ export default function Home() {
             isImageLeft={false}
           />
           <Project
-            image="public/images/chat.jpg"
+            image="https://res.cloudinary.com/dhjzutfu9/image/upload/v1723099225/chat_aq5k4g.jpg"
             title="Chat Application"
             description="A straightforward chat application designed to refine backend development skills. This project focuses on creating a reliable messaging platform without the use of WebSocket technology, emphasizing robust server-side functionalities."
             githubLink="https://github.com/BlueInside/my-chat-app"
@@ -77,7 +77,7 @@ export default function Home() {
             isImageLeft={true}
           />
           <Project
-            image="public/images/waldo.webp"
+            image="https://res.cloudinary.com/dhjzutfu9/image/upload/v1723099309/waldo_vtuifx.webp"
             title="Interactive 'Where's Waldo?' Game"
             description="A fun, interactive game that challenges users to find Waldo in crowded scene, developed to showcase skills in user interface design and attention to detail."
             githubLink="https://github.com/BlueInside/where-is-character"
