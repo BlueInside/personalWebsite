@@ -22,7 +22,7 @@ Feel free to explore these projects by clicking on the links.
 I'm always open to connecting with new people and discussing potential opportunities. You can reach out to me through the following channels:
 
 - **LinkedIn**: [Karol Pulawski](https://www.linkedin.com/in/karol-pulawski-66712b1b6/)
-- **Email**: [karol.pulawski@example.com](karolpulawski@hotmail.com)
+- **Email**: [karolpulawski@hotmail.com](karolpulawski@hotmail.com)
 
 ## License
 
