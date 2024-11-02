@@ -18,7 +18,7 @@ export default function Home() {
             className="mb-7 h-48 w-48 rounded-full border-4 border-gray-300 object-cover shadow-lg"
           />
           <h1 className="mb-4 text-4xl font-bold">
-            JavaScript, React enthusiast
+            JavaScript and React Developer
           </h1>
           <p className="mb-4 text-2xl">
             Open to new technologies and development opportunities
